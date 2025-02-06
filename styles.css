@@ -1,0 +1,8 @@
+body{
+    background-image: url('1.jpg'); /* Replace with your image file */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    font-family: JetBrains Mono;
+    text-align: center;
+    color: white; /* Default text color */
+}
