@@ -1,46 +1,38 @@
 +++
 title = "2025-03-27-い-Adjective & な-Adjective Conjugation"
-date = "2025-03-27 01:51:04"
+date = "2025-03-27 13:56:47"
 +++
 
-# **い-Adjective & な-Adjective Conjugation**
+## い-Adjective Conjugation
 
-## **い-Adjective Conjugation**
+**Rule:** Remove い, then add the correct ending.
 
-**Rule:** Remove **い**, then add the correct ending.
+| Form             |     | Rule                   |     | Example: たかい (expensive) |
+| ---------------- | --- | :--------------------- | --- | --------------------------- |
+| Present Positive | --> | Keep い                | --> | たかい                      |
+| Present Negative | --> | Change い → くない     | --> | たかくない                  |
+| Past Positive    | --> | Change い → かった     | --> | たかかった                  |
+| Past Negative    | --> | Change い → くなかった | --> | たかくなかった              |
 
-| **Form**             | **Rule**                   | **Example: たかい (expensive)** |
-| -------------------- | -------------------------- | ------------------------------- |
-| **Present Positive** | Keep **い**                | **たかい**                      |
-| **Present Negative** | Change **い → くない**     | **たかくない**                  |
-| **Past Positive**    | Change **い → かった**     | **たかかった**                  |
-| **Past Negative**    | Change **い → くなかった** | **たかくなかった**              |
+### Examples:
 
-### **Examples:**
-
-- **おおきい** → **おおきくない** → **おおきかった** → **おおきくなかった**
-- **ちいさい** → **ちいさくない** → **ちいさかった** → **ちいさくなかった**
+- おおきい → おおきくない → おおきかった → おおきくなかった
+- ちいさい → ちいさくない → ちいさかった → ちいさくなかった
 
 ---
 
-## **な-Adjective Conjugation**
+## な-Adjective Conjugation
 
-**Rule:** Add **だ** (positive), change it for other forms.
+**Rule:** Add だ (positive), change it for other forms.
 
-| **Form**             | **Rule**                           | **Example: しずか (quiet)** |
-| -------------------- | ---------------------------------- | --------------------------- |
-| **Present Positive** | Add **だ**                         | **しずかだ**                |
-| **Present Negative** | Change **だ → じゃない**           | **しずかじゃない**          |
-| **Past Positive**    | Change **だ → だった**             | **しずかだった**            |
-| **Past Negative**    | Change **じゃない → じゃなかった** | **しずかじゃなかった**      |
+| Form             |     | Rule                           |     | Example: しずか (quiet) |
+| ---------------- | --- | ------------------------------ | --- | ----------------------- |
+| Present Positive | --> | Add だ                         | --> | しずかだ                |
+| Present Negative | --> | Change だ → じゃない           | --> | しずかじゃない          |
+| Past Positive    | --> | Change だ → だった             | --> | しずかだった            |
+| Past Negative    | --> | Change じゃない → じゃなかった | --> | しずかじゃなかった      |
 
-### **Examples:**
+### Examples:
 
-- **きれい** → **きれいだ** → **きれいじゃない** → **きれいだった** → **きれいじゃなかった**
-- **げんき** → **げんきだ** → **げんきじゃない** → **げんきだった** → **げんきじゃなかった**
-
----
-
-This note will help you remember the **adjective conjugations** easily! 😊
-
-chmod +x auto_deploy.sh
+- きれい → きれいだ → きれいじゃない → きれいだった → きれいじゃなかった
+- げんき → げんきだ → げんきじゃない → げんきだった → げんきじゃなかった
