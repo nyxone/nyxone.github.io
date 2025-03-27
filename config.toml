@@ -1,8 +1,10 @@
-# The URL the site will be built for
+
 base_url = "https://nyxone.github.io"
+title = "わたしの にほんご ブログ"
+description = "N5レベルの にほんご ブログ"
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
+compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
@@ -16,3 +18,5 @@ highlight_code = true
 # Put all your custom variables here
 
 output_dir = "docs"
+default_language = "ja"
+

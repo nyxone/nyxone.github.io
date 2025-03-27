@@ -1,0 +1,87 @@
+// 🎨 Color Palette
+$bg-color: #1d1b28; // Darker base background (almost black with a hint of purple)
+$text-color: #f7f7f7; // Light, almost white text for readability
+$link-color: #4db8b4; // Soft teal for links
+$heading-color: #e5a400; // Warm golden yellow for headings
+$accent-color: #9d5b39; // Rich warm brown accent for highlights
+
+// 🖋️ Base Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg-color;
+  color: $text-color;
+  font-family: "JetBrains Mono", sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+// 📝 Headings
+h1,
+h2,
+h3 {
+  color: $heading-color;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+
+// 🔗 Links
+a {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+
+  &:hover {
+    border-bottom: 2px solid $link-color;
+  }
+}
+a:hover {
+  color: #f7f7f7; // Changes link color to light text when hovered
+}
+
+// 📜 Blog Posts
+article {
+  background: lighten($bg-color, 10%);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+// 📱 Responsive
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+}
+// 🎨 Title Styling
+$title-color: #e5a400; // Golden yellow for the title
+$title-font-size: 1.5rem; // Font size for the title
+$title-font-weight: bold; // Bold title text
+$title-line-height: 1.2; // Line height for spacing
+
+// 🖋️ Title Styling CSS
+h1.title {
+  color: $title-color;
+  font-size: $title-font-size;
+  font-weight: $title-font-weight;
+  line-height: $title-line-height;
+  text-align: center; // Center-align the title
+  margin-bottom: 1.5rem; // Space below the title
+  letter-spacing: 1px; // Slightly increase letter spacing for effect
+  text-transform: uppercase; // Make the title uppercase for a bold, stylish look
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); // Subtle text shadow for extra emphasis
+}
