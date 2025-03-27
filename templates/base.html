@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>MyBlog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="日本語学習に関する私の個人ブログです" />
+    <title>{% block title %}わたしの にほんご ブログ{% endblock title %}</title>
     {% block css %}
     <link
       rel="stylesheet"
       href="{{ get_url(path='main.css', trailing_slash=false) | safe }}"
     />
-
     {% endblock css %}
   </head>
 
@@ -16,6 +17,5 @@
     <section class="section">
       <div class="container">{% block content %} {% endblock %}</div>
     </section>
-    <script src="{{ get_url(path='js/furigana.js') }}"></script>
   </body>
 </html>

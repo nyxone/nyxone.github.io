@@ -1,17 +1,11 @@
 // 🎨 Color Palette
-$bg-color: #1d1b28; // Darker base background (almost black with a hint of purple)
-$text-color: #f7f7f7; // Light, almost white text for readability
-$link-color: #4db8b4; // Soft teal for links
-$heading-color: #e5a400; // Warm golden yellow for headings
-$accent-color: #9d5b39; // Rich warm brown accent for highlights
+$bg-color: #1d1b28;
+$text-color: #f7f7f7;
+$link-color: #4db8b4;
+$heading-color: #e5a400;
+$accent-color: #9d5b39;
 
 // 🖋️ Base Styles
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background: $bg-color;
   color: $text-color;
@@ -46,37 +40,41 @@ a {
   transition: 0.3s;
 
   &:hover {
+    color: #f7f7f7;
     border-bottom: 2px solid $link-color;
   }
 }
-a:hover {
-  color: #f7f7f7; // Changes link color to light text when hovered
+
+// 🎨 Title Styling
+$title-color: #e5a400;
+$title-font-size: 1.5rem;
+$title-font-weight: bold;
+$title-line-height: 1.2;
+
+h1.title {
+  color: $title-color;
+  font-size: $title-font-size;
+  font-weight: $title-font-weight;
+  line-height: $title-line-height;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-// 📜 Blog Posts
-article {
+// 🖋️ Article Styles
+article.post {
   background: lighten($bg-color, 10%);
   padding: 1.5rem;
   border-radius: 8px;
   margin-bottom: 1rem;
+  font-size: 1.5rem; // Increased font size
 }
-
-// 📱 Responsive
-@media (max-width: 768px) {
-  body {
-    padding: 1rem;
-  }
-}
-// 🎨 Title Styling
-$title-color: #e5a400; // Golden yellow for the title
-$title-font-size: 1.5rem; // Font size for the title
-$title-font-weight: bold; // Bold title text
-$title-line-height: 1.2; // Line height for spacing
-
-// 🖋️ Title Styling CSS
-h1.title {
+// 🖋️ Article Title Styles
+article h1.title {
   color: $title-color;
-  font-size: $title-font-size;
+  font-size: 2.5rem; // Increased font size
   font-weight: $title-font-weight;
   line-height: $title-line-height;
   text-align: center; // Center-align the title
@@ -84,4 +82,23 @@ h1.title {
   letter-spacing: 1px; // Slightly increase letter spacing for effect
   text-transform: uppercase; // Make the title uppercase for a bold, stylish look
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); // Subtle text shadow for extra emphasis
+}
+
+// 📱 Responsive
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1.title {
+    font-size: 1.2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
 }
