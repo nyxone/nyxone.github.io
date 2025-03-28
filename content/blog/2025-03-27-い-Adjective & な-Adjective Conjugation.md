@@ -25,12 +25,12 @@ date = "2025-03-27 13:56:47"
 
 **Rule:** Add だ (positive), change it for other forms.
 
-| Form             |     | Rule                           |     | Example: しずか (quiet) |
-| ---------------- | --- | ------------------------------ | --- | ----------------------- |
-| Present Positive | --> | Add だ                         | --> | しずかだ                |
-| Present Negative | --> | Change だ → じゃない           | --> | しずかじゃない          |
-| Past Positive    | --> | Change だ → だった             | --> | しずかだった            |
-| Past Negative    | --> | Change じゃない → じゃなかった | --> | しずかじゃなかった      |
+| Form             |     | Rule                     |     | Example: しずか (quiet) |
+| ---------------- | --- | ------------------------ | --- | ----------------------- |
+| Present Positive | --> | Add だ                   | --> | しずかだ                |
+| Present Negative | --> | Change だ → じゃない     | --> | しずかじゃない          |
+| Past Positive    | --> | Change だ → だった       | --> | しずかだった            |
+| Past Negative    | --> | Change だ → じゃなかった | --> | しずかじゃなかった      |
 
 ### Examples:
 
