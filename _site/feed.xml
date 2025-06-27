@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://riggraz.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://riggraz.dev/" rel="alternate" type="text/html" /><updated>2025-06-27T16:46:37+00:00</updated><id>https://riggraz.dev/feed.xml</id><title type="html">My Minimal Blog(no style, please!)</title><subtitle>A (nearly) no-CSS, fast, minimalist Jekyll theme.
+</subtitle><author><name>Riccardo Graziosi</name></author><entry><title type="html">Test</title><link href="https://riggraz.dev/test.html" rel="alternate" type="text/html" title="Test" /><published>2025-06-27T00:00:00+00:00</published><updated>2025-06-27T00:00:00+00:00</updated><id>https://riggraz.dev/test</id><content type="html" xml:base="https://riggraz.dev/test.html"><![CDATA[<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="gh">normal post:
+---
+</span>layout: post
+<span class="gh">hidden: true
+---
+</span>
+<span class="gh">custom category:
+---
+</span>layout: post
+category: example
+<span class="gh">hidden: true
+---
+</span>
+<span class="gh">custom js:
+---
+</span>layout: post
+custom_js: mouse_coords
+<span class="gh">hidden: true
+---
+</span>
+</code></pre></div></div>]]></content><author><name>Riccardo Graziosi</name></author><summary type="html"><![CDATA[```md]]></summary></entry><entry><title type="html">Interview</title><link href="https://riggraz.dev/interview.html" rel="alternate" type="text/html" title="Interview" /><published>2025-06-27T00:00:00+00:00</published><updated>2025-06-27T00:00:00+00:00</updated><id>https://riggraz.dev/interview</id><content type="html" xml:base="https://riggraz.dev/interview.html"><![CDATA[<h2 id="interview-dates">Interview dates</h2>
+<p>ao-i-s school interview date: 01-07-2025</p>
+
+<h3 id="common-questions-they-ask-in-japanese-language-school-interviews"><strong>Common questions they ask in Japanese language school interviews</strong></h3>
+
+<ul>
+  <li>Self-Introduction
+    <ul>
+      <li>name</li>
+      <li>How old are you?</li>
+      <li>Where are you from?</li>
+      <li>What are your hobbies?</li>
+      <li>Please tell me about your family.</li>
+      <li>Where do you live now?</li>
+      <li>Are you working now?</li>
+      <li>Are you attending school now?</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>Reason for Studying Japanese
+    <ul>
+      <li>Why do you want to study Japanese?</li>
+      <li>Why did you choose this school?</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>Study related
+    <ul>
+      <li>Have you studied Japanese before? For how long?, How long have you studied Japanese?</li>
+      <li>Which textbook did you use?</li>
+      <li>Where did you study Japanese?</li>
+      <li>How many kanji can you read?</li>
+      <li>Can you write your name in Katakana?</li>
+      <li>Can you write Hiragana and Katakana?</li>
+      <li>Is studying Japanese difficult?</li>
+      <li>What do you like about the Japanese language?</li>
+      <li>Do you want to do part-time work in Japan?</li>
+      <li>What will you do after graduation?</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>Future Plans
+    <ul>
+      <li>What do you want to do with Japanese in the future?</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>very simple questions
+    <ul>
+      <li>これは何ですか？(What is this?)</li>
+      <li>今日の天気はどうですか？(What is the weather like today?)</li>
+      <li>何時に起きますか？(what time do you get up?)</li>
+      <li>What day of the week is today?</li>
+      <li>What is your favorite food?</li>
+      <li>Do you study Japanese every day?</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>If you don’t understand, it’s OK to say
+    <ul>
+      <li>すみません、もう一度お願いします。 (Excuse me, please say it again.)</li>
+      <li>ゆっくり話してください。 (Please speak slowly.)</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />]]></content><author><name>Riccardo Graziosi</name></author><summary type="html"><![CDATA[Interview dates ao-i-s school interview date: 01-07-2025]]></summary></entry></feed>
