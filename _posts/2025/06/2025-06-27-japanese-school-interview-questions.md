@@ -2,20 +2,40 @@
 layout: post
 hidden: true
 ---
-## Interview dates
+#### Interview dates
 ao-i-s school interview date: 01-07-2025
 
 ### **Common questions they ask in Japanese language school interviews**
 
-- Self-Introduction
-    - name
-    - How old are you?
-    - Where are you from?
-    - What are your hobbies?
-    - Please tell me about your family.
-    - Where do you live now?
-    - Are you working now?
-    - Are you attending school now?
+#### **Self-Introduction(じこしょうかい)**
+
+わたしの　**なまえ**　は　モハマド・モダシル(Mohammad Moddassir)　です。こくせき　は　バングラデシュ　です。わたしは　にほんご　の　がくせい　です。わたしは　じゅうきゅうさい　です。どうぞ　よろしく　おねがい　します。
+
+- Name.
+- Nationality.
+- Japanese language students.
+- Age.
+- Thank you so much.
+
+----
+
+#### **Family(かぞく)**
+- Please tell me about your family.
+- how many people are in your family? (かぞく は なんにん ですか。)
+    - かぞく は よにん です。
+- Who and who?(だれ と だれ ですか。)
+    - おとさん と　おかさん と いもうと　と　おとうと と わたし です。
+
+
+----
+
+
+
+- What are your hobbies?
+- Are you working now?
+- Are you attending school now?
+
+
 
 ----
 

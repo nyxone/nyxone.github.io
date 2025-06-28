@@ -1,10 +1,14 @@
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
-  background: #01242E;
-  color: white;
+  filter: invert(1);
+  img {
+    filter: invert(1);
 
-  img, iframe, .emoji {
-    filter: none;
+    &.ioda { filter: invert(0); }
+  }
+  .emoji { filter: invert(1); }
+  iframe {
+    filter: invert(1);
   }
 }
 
@@ -19,7 +23,7 @@ body[a="dark"] { @include dark-appearance; }
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: #01242E; }
+html, body { background: white; }
 
 html { height: 100%; scroll-behavior: smooth; }
 
@@ -53,7 +57,7 @@ li { margin: 0.4rem 0; }
 *:target { background: yellow; }
 
 .w {
-  max-width: 750px;
+  max-width: 640px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
@@ -100,18 +104,3 @@ img {
   margin: 0 auto;
 }
 
-a {
-  color: #80B5CD;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:visited {
-  color: #7D67BB;
-}
-
-a:hover,
-a:focus {
-  color: lighten(#80B5CD, 10%); // Slightly brighter on hover
-  text-decoration: underline;
-}
